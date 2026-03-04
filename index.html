@@ -17,8 +17,13 @@
 </head>
 
 <body>
-    <audio id="background-music" autoplay loop controls><source src="Eppadi_Vandhaayo_-_Chinmayi_Anand_Aravindakshan.mp3" type="auto/mpeg">
+    <audio id="background-music" loop ><source src="Eppadi_Vandhaayo_-_Chinmayi_Anand_Aravindakshan.mp3" type="auto/mpeg">
   </audio>
+  <script>
+document.body.addEventListener("click", function() {
+  document.getElementById("music").play();
+}, { once: true });
+</script>
   <div class="bg" id="content">
     <div class="container" id="timer">
       <h5>Countdown to <x id='name'></x> birthday :</h5>
@@ -92,6 +97,7 @@
 
 
 </html>
+
 
 
 
