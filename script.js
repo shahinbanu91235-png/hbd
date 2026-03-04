@@ -151,17 +151,15 @@ const _slideEnam = function () {
   const slideEnam = document.getElementById('slideEnam');
   slideEnam.classList.remove('d-none');
 };
-
-
 new TypeIt("#teks1", {
-  strings: [""],
+  strings: ["Happy birthday hantu","","namma kulla physical ahh evlo distance irundhalum mentally naa o kuda dha irukke.Every second I miss you.....But every second I love you even more","One day inshallah namma onna iruppom....Andha naal la naan o birthday ahh o pakkathula ninnu celebrate pannuven","Indha special day la onta pesala o kuda illa nu feel pannadha inshallah idhu la oru naal change agum","Romba seekiram indha distance ellame mudinchurum....apram onga wife onga birthday va ongalukku puducha maari la celecbrate pannuva","indha birthday la happy ya iru nalla padi inshallah nalla job kadaikkum once again happy birthday, my world","wish you all the best for your future","inshallah allah onnoda dreams la seekiram nadakkaseivan"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["indha life ahh naa o kuda vaalanum happy ya mudiyum ahh", "namma kulla evlo sanda vandhalum evlo problem analum nee enakku mattudha  ","o kuda eppudi iruppe appudi iruppe nu solradha vida vaaldhukaturadhu dha nalla irukkum la","nee en best friend mattu illa en lover en crush en private locker en caretake ennoda ellame nee dha da","onnakaga naa iruppe eppoume,onnaku yaarum illa nu eppoume feel panna vaikkamate onna yaaru munnadiyum alugavo thala kuniyavo vida matte promise"," " ,"barakallah fi umrik, inshallah allah namma ella dua um accept pannanum neeyum dua sei idhu la konjam ahh dha sollirukke o birthday annaki en naala onta pesa mudiyum ahh nu theriyala adhukku dha idhu", " ", "- Wish all you the best"],
+  strings: ["Ennaku theriyum onna suthi evlo peru irundhalum nee ena indha time miss pannuva nu naa o kuda dha irukke irundhe irukke iruppe", "O kuda evlo peru irundhalum nee romba thaniya irukkura maari dha feel pannuva onnakga yaaru illa nu nee eppoume nenaikkadha onnakaga naa irukke enna analm evlo problem vandha nee en huzefa","o kuda eppudi iruppe appudi iruppe nu solradha vida vaaldhukaturadhu dha nalla irukkum la","Fun ahh start ana oru vishyam eppo romba serious ahh poitu irukku","Ennoda life la nee enakku important nu solradha vida nee dha en life ennoda ellame"," Unmaiya sollanum ahh nee enakku kadacha romba periya gift","Onnaku ennaku evlo sanda vandhalum en kochukuttalum enna analum ena vittura mattala.......nee ena nalla pathuko nu solla matte naa onna nalla pathukure en uyir irukkura varaikkum","Onnakaga yaarum illa nu nee feel pannave kudadhu appudi nee feel pandra ahh adhu en death ku apram ahh dha irukku","","barakallah fi umrik ,"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -169,14 +167,12 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Barakallahu fi umrik."],
+  strings: ["Thank you"],
   startDelay: 2000,
   speed: 150,
   loop: false,
   waitUntilVisible: true,
 }).go();
-
-
 
 'use strict';
 
@@ -445,4 +441,5 @@ function confetti() {
   });
 
   if (!onlyOnKonami) poof();
+
 };
