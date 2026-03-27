@@ -1,4 +1,8 @@
-// Fungsi untuk memulai musik
+
+function startSite() {
+  document.getElementById("music").play();
+  document.getElementById("startScreen").style.display = "none";
+}
 document.body.addEventListener('click', function () {
   document.getElementById("music").play();
 }, { once: true });
