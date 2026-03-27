@@ -1,4 +1,7 @@
 // Fungsi untuk memulai musik
+document.body.addEventListener('click', function () {
+  document.getElementById("music").play();
+}, { once: true });
 function playMusic() {
   const music = document.getElementById('music');
   music.play();
