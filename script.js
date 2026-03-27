@@ -1,11 +1,8 @@
 // Fungsi untuk memulai musik
 function playMusic() {
-  const music = document.getElementById('background-music');
+  const music = document.getElementById('music');
   music.play();
 }
-window.addEventListener('DOMContentLoaded', function() {
-  playMusic();
-});
 document.body.addEventListener('click', playMusic, { once: true });
 const content = document.getElementById('content');
 const footer = document.getElementsByTagName('footer')[0];
